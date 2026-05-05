@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdaptSphere - Future Readiness</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body class="bg-gradient-to-br from-gray-950 via-black to-gray-950 text-white">
+
+  <!-- Navbar -->
+  <nav class="border-b border-gray-800 bg-black/80 backdrop-blur-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <h1 class="text-3xl font-bold bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
+        AdaptSphere
+      </h1>
+      <div class="flex gap-8 text-lg">
+        <a href="#" class="hover:text-green-400 transition">Dashboard</a>
+        <a href="#" class="hover:text-green-400 transition">Skill Radar</a>
+        <a href="#" class="hover:text-green-400 transition">Opportunities</a>
+        <a href="#" class="hover:text-green-400 transition">Simulator</a>
+      </div>
+      <div class="flex items-center gap-4">
+        <button onclick="switchLanguage()" class="px-4 py-2 border border-gray-700 rounded-xl">🇬🇧 / 🇮🇳</button>
+        <button class="bg-green-600 hover:bg-green-500 px-6 py-2.5 rounded-2xl font-medium">Get Started Free</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <div class="max-w-7xl mx-auto px-6 pt-28 pb-20 text-center">
+    <h2 class="text-6xl md:text-7xl font-bold leading-tight mb-6">
+      Your Future.<br>Under Your Control.
+    </h2>
+    <p class="text-2xl text-gray-400 mb-10 max-w-3xl mx-auto">
+      Personal dashboard to prepare for the next 10-15 years — skills, career, climate & opportunities.
+    </p>
+    <button onclick="alert('🎉 Welcome to AdaptSphere! Your future readiness journey begins now.')" 
+            class="bg-gradient-to-r from-green-500 to-emerald-600 text-xl px-12 py-6 rounded-3xl font-semibold hover:scale-105 transition">
+      Start My Free Dashboard →
+    </button>
+  </div>
+
+  <!-- Features Grid -->
+  <div class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-3 gap-8">
+    <div class="bg-gray-900/70 p-10 rounded-3xl border border-gray-700 hover:border-green-500 transition">
+      <i class="fas fa-chart-line text-5xl text-green-500 mb-6"></i>
+      <h3 class="text-3xl font-bold mb-3">Future Skill Radar</h3>
+      <p class="text-gray-400">Discover the most valuable skills for 2035-2040.</p>
+    </div>
+    <div class="bg-gray-900/70 p-10 rounded-3xl border border-gray-700 hover:border-green-500 transition">
+      <i class="fas fa-flask text-5xl text-green-500 mb-6"></i>
+      <h3 class="text-3xl font-bold mb-3">What-If Simulator</h3>
+      <p class="text-gray-400">Test your life decisions and see future results.</p>
+    </div>
+    <div class="bg-gray-900/70 p-10 rounded-3xl border border-gray-700 hover:border-green-500 transition">
+      <i class="fas fa-shield-alt text-5xl text-green-500 mb-6"></i>
+      <h3 class="text-3xl font-bold mb-3">Resilience Score</h3>
+      <p class="text-gray-400">Track how ready you are for future changes.</p>
+    </div>
+  </div>
+
+  <footer class="border-t border-gray-800 py-12 text-center text-gray-500">
+    <p>Made for anyone in the world who wants to stay ahead</p>
+  </footer>
+
+</body>
+</html>
